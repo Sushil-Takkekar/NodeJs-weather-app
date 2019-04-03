@@ -6,7 +6,13 @@ Sample weather app to get the weather-info of the places you search. Created usi
 # Install all dependencies
 $ npm install
 
-# Run web-server
-$ node .\src\app.js
+# Run dev server
+$ npm run dev
+
+# Run prod server
+$ npm run start
 
 ```
+
+### Live Demo
+You can experience the live version of the application at [https://weather-app-express-nodejs.herokuapp.com](https://weather-app-express-nodejs.herokuapp.com/)
