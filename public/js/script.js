@@ -11,7 +11,7 @@ weather_form.addEventListener('submit',(e) => {
     weather_result.style.display = 'block';
     weather_result.innerHTML = '<img src="'+img_loading+'">'
 
-    const server_url = 'http://localhost:3000/weather?address='+search_location.value;
+    const server_url = '/weather?address='+search_location.value;
     fetch(server_url).then(response => {
         response.json().then(data => {
             if(data.error) {
