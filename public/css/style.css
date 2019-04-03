@@ -1,0 +1,115 @@
+body {
+    background: #efefef;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1080px;
+    min-width: 720px;
+    color: #505050;
+    /* border-left: 1px solid gray;
+    border-right: 1px solid gray; */
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    width: 100%;
+    height: 75px;
+    padding: 10px 0 5px;
+    border-bottom: 1px solid #cacaca;
+}
+header logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+header nav {
+    display: inline;
+    font-size: 25px;
+    float: right;
+    padding: 1% 0;
+}
+header nav a {
+    color: #505050;
+    font-size: inherit;
+    text-decoration: none;
+    margin-right: 10px;
+}
+body .main-content {
+    flex-grow: 1;
+}
+body .home-container img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+body .home-container #weather-form-title {
+    font-size: 23px;
+    color: #354f00;
+    padding: 10px 0;
+}
+body .about-container #user-name {
+    width: 200px;
+    font-size: 20px;
+    color: #0a304e;
+    font-weight: bold;
+}
+body .home-container form {
+    margin: 10px 0;
+}
+body .home-container form #search-value {
+    width: 300px;
+    /* height: 25px; */
+    font-size: 15px;
+    padding: 8px;
+}
+body .home-container form button {
+    width: 40px;
+    /* height: 38px; */
+    font-size: 15px;
+    padding: 9px;
+    border: 1px solid #808080;
+    background: #7e7e7e;
+    color: white;
+    cursor: pointer;
+}
+body .home-container .weather-info img {
+    width: 40px;
+    height: 40px;
+}
+body .home-container .weather-info {
+    display: none;
+    font-size: 19px;
+    font-family: monospace;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    border-top: 1px solid #a5a5a5;
+    margin-top: 20px;
+}
+footer .auther {
+    /* padding: 10px 0; */
+    font-size: 20px;
+    color: #3e3e3e;
+    display: inline;
+}
+footer .social-media {
+    display: inline;
+    font-size: 20px;
+    float: right;
+}
+footer .social-media img{
+    width: 25px;
+    padding: 0 5px;
+}
+/* h1 {
+    color: gray;
+}
+p {
+    font-size: 20px;
+}
+img {
+    width: 150px;
+} */

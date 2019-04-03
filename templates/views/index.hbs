@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="icon" href="/img/weather-icon2.png">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        {{>header}}
+
+        <div class="main-content">
+            <div class="home-container">
+                <img src="/img/weather.jpg">
+                <span id="weather-form-title">Get weather</span>
+                <form action="#">
+                    <input type="text" placeholder="Search location.." id="search-value" required>
+                    <button type="submit">Go</button>
+                </form>
+                <div class="weather-info">It is currently 88.73 degrees out there in thane. There is a 0% chance of rain.</div>
+            </div>
+        </div>
+
+        {{>footer}}
+        <script src="/js/script.js"></script>
+    </body>
+</html>
